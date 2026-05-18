@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea house</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Banner section starts here -->
+    <section class="parent_div flex flex-col md:flex-row justify-between max-w-[1350px] mx-auto">
+        <div class="left_div ">
+            <h1 class="text-[80px]"> It's good <br>
+            tea time at The
+            <br>Tea House </h1>
+            <p class="text-[18px] my-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class = "w-[200px] h-[64px] bg-gradient-to-r to-[#ff0000] from-[#ff8938] text-xl text-white rounded-lg">Explore more <span><i class="fa-solid fa-arrow-down rotate-225"></i></span></button>
+        </div>
+        <div class="right div relative ">
+            <img src="images/banner.png" alt="" class="relative top-[50px]">
+            <div class="pop_up flex  justify-center items-center w-[240px] h-[100px] rounded-lg shadow-lg bg-white absolute bottom-[-25px] left-[100px]">
+                <div>
+                    <span><i class="fa-solid fa-star text-3xl text-yellow-400"></i></span>
+                </div>
+                <div class="ml-3">
+                    <p class="text-3xl font-bold">5.00</p>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="max-w-[1350px] mx-auto mt-[100px]">
+        <h1 class="text-5xl text-center">Our Featured Products</h1>
+        <p class="text-center mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div class="parent_card border- min-h-[300px] grid grid-cols-1 md:grid-cols-4 gap-4 mt-10" >
+            <div class="card bg-gradient-to-b from-[#f4f4f4] to-[#f0ecec] text-center p-4 rounded-lg">
+                <img src="./images/tea-1.png" alt="" class="mx-auto" >
+                <h1 class="font-bold text-2xl">Milk Tea</h1>
+                <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="card bg-gradient-to-b from-[#f4f4f4] to-[#f0ecec] text-center p-4 rounded-lg">
+                <img src="./images/tea-2.png" alt="" class="mx-auto" >
+                <h1 class="font-bold text-2xl">Black Tea</h1>
+                <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="card  bg-gradient-to-b from-[#f4f4f4] to-[#f0ecec] text-center p-4 rounded-lg">
+                <img src="./images/tea-3.png" alt="" class="mx-auto" >
+                <h1 class="font-bold text-2xl">Lemon Tea</h1>
+                <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="card bg-gradient-to-b from-[#f4f4f4] to-[#f0ecec] text-center p-4 rounded-lg">
+                <img src="./images/tea-4.png" alt="" class="mx-auto" >
+                <h1 class="font-bold text-2xl">Green Tea</h1>
+                <p>Creamer could be replaced by fresh milk</p>
+            </div>
+        </div>
+    </section>
+    <section class="quality max-w-[1350px] mx-auto my-32 flex flex-col md:flex-row p-3 gap-[50px]">
+        <div class="left_div w-full md:w-1/2 grid grid-rows-3 grid-cols-2 gap-3">
+            <div class=" bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-lg">
+            </div>
+            <div class="row-span-2 bg-[#f3e3c3]  bg-opacity-45 flex justify-center items-center rounded-lg">
+            <img src="./images/fresh-1.png" alt="">
+            </div>
+            <div class="row-span-2 bg-[#e8f0e1]  flex justify-center items-center rounded-lg">
+            <img src="./images/fresh-2.png" alt="">
+            </div>
+            <div class="bg-gradient-to-r from-[#252525] to-[#FFFFFF] opacity-10 rounded-lg">
+            <p>4</p>
+            </div>
+        </div>
+        <div class="right_div w-full md:w-1/2 flex flex-col justify-between gap-2">
+            <h1 class="text-[45px] font-bold">Great Tea, Freshly <br> Presented</h1>
+            <p class="">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h2 class="text-[20px] font-bold ">Unique Taste</h2>
+            <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h2 class="text-[20px] font-bold ">Premium Quality</h2>
+            <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+    </section>
+</body>
+</html>
